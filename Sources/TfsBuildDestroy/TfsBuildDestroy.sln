@@ -1,16 +1,23 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TfsBuildDestroy", "TfsBuildDestroy.csproj", "{EC96114E-9A6B-4D2A-8647-A0913D1C3491}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TfsBuildDestroy.VSExtension", "..\ExtensionVisualStudio\TfsBuildDestroy\TfsBuildDestroy.VSExtension.csproj", "{39E42065-829C-430D-BFFF-B578B5FF1D41}"
 EndProject
 Global
 	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 2
+		SccNumberOfProjects = 3
 		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
 		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs22
 		SccLocalPath0 = .
 		SccProjectUniqueName1 = TfsBuildDestroy.csproj
 		SccLocalPath1 = .
+		SccProjectUniqueName2 = ..\\ExtensionVisualStudio\\TfsBuildDestroy\\TfsBuildDestroy.VSExtension.csproj
+		SccProjectName2 = ../ExtensionVisualStudio/TfsBuildDestroy
+		SccLocalPath2 = ..\\ExtensionVisualStudio\\TfsBuildDestroy
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +28,10 @@ Global
 		{EC96114E-9A6B-4D2A-8647-A0913D1C3491}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC96114E-9A6B-4D2A-8647-A0913D1C3491}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC96114E-9A6B-4D2A-8647-A0913D1C3491}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39E42065-829C-430D-BFFF-B578B5FF1D41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39E42065-829C-430D-BFFF-B578B5FF1D41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39E42065-829C-430D-BFFF-B578B5FF1D41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39E42065-829C-430D-BFFF-B578B5FF1D41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
